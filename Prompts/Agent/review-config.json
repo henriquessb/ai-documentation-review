@@ -1,0 +1,15 @@
+{
+  "documentationFiles": [
+    "Input docs/2024-12-23-faststore-improvements.md",
+    "Input docs/authentication.md",
+    "Input docs/backend-integrations.md",
+    "Input docs/erp-integration-set-up-catalog.md",
+    "Input docs/how-to-add-products.md",
+    "Input docs/i-am-getting-errors-with-my-service-configuration-app.md",
+    "Input docs/subscriptions-faq.md",
+    "Input docs/vtex-io-documentation-engineering-guidelines.md"
+  ],
+  "styleGuideFile": "E&D Style Guide.md",
+  "outputDirectory": "Reviews/Single prompt - multiple documents/{{MODEL_NAME}}",
+  "aggregatedOutputPath": "Reviews/Single prompt - multiple documents/{{MODEL_NAME}}/{{MODEL_NAME}}-aggregated-report.md"
+}

@@ -1,0 +1,13 @@
+{
+  "styleGuideFile": "E&D Style Guide.md",
+  "aggregatedReviewFiles": [
+    "Reviews/Single prompt - multiple documents/Claude 3.7 Sonnet/Claude 3.7 Sonnet-aggregated-report.md",
+    "Reviews/Single prompt - multiple documents/DeepSeek-R1/DeepSeek-R1-aggregated-report.md",
+    "Reviews/Single prompt - multiple documents/Gemini 2.0 Flash/Gemini 2.0 Flash-aggregated-report.md",
+    "Reviews/Single prompt - multiple documents/GitHub Copilot/GitHub Copilot-aggregated-report.md",
+    "Reviews/Single prompt - multiple documents/GPT-4o/GPT-4o-aggregated-report.md"
+  ],
+  "outputDirectory": "Comparison",
+  "individualReportsPattern": "Comparison/{{YOUR_NAME}}/{{MODEL_NAME}}-comparison.md",
+  "finalReportPath": "Comparison/{{YOUR_NAME}}/final-comparison-report.md"
+}
