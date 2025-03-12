@@ -7,14 +7,15 @@
 1. Chat website
 2. JupyterHub
 3. API
-4. IDE Chat
+4. IDE AI panel
 
 ### Models to test
 
-1. ChatGPT o3-mini
-2. DeepSeek-R1
-3. Claude Sonnet 3.7
-4. Gemini Flash 2.0
+1. [GPT-4o](https://openai.com/index/hello-gpt-4o/)
+2. [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)
+3. [Claude Sonnet 3.7](https://www.anthropic.com/news/claude-3-7-sonnet)
+4. [Gemini 2.0 Flash](https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/#gemini-2-0-flash)
+5. [GitHub Copilot (Claude Sonnet 3.5)](https://github.com/features/copilot)
 
 ### Prompt sequence
 
@@ -28,7 +29,7 @@
 ### Style Guide
 
 1. Exported zip folder from Notion containing Markdown files and images.
-2. Single file aggregating all the exported Markdown content.
+2. Single text file aggregating all the exported Markdown content.
 
 ### Review object
 
@@ -36,15 +37,15 @@
 
 1. Single document (tutorial)
    1. [Engineering best practices](https://developers.vtex.com/docs/guides/vtex-io-documentation-engineering-guidelines)
-2. Multiple documents - at least one per documentation type (tutorial, API, announcement, etc.)
-   1. [Set up catalog (Tutorial - Dev Portal)](https://developers.vtex.com/docs/guides/erp-integration-set-up-catalog)
-   2. [FastStore: Performance improvements for mobile devices (Announcement - Dev Portal)](https://developers.vtex.com/updates/release-notes/2024-12-23-faststore-improvements)
-   3. [POST Send anti-fraud pre-analysis data (optional) (API Reference - Dev Portal)](https://developers.vtex.com/docs/api-reference/antifraud-provider-protocol#post-/pre-analysis)
-   4. [I am getting errors with my service configuration app (Troubleshooting - Dev Portal)](https://developers.vtex.com/docs/troubleshooting/i-am-getting-errors-with-my-service-configuration-app)
-   5. [Backend integrations (Conceptual - Help Center)](https://help.vtex.com/en/tracks/vtex-store-overview--eSDNk26pdvemF3XKM0nK9/7euXDZR5CCnVFSrXyczIhu)
-   6. [Authentication (Conceptual - Help Center)](https://help.vtex.com/en/tutorial/authentication--21CkKHLKP1o41lUpGhuRUs)
+2. Multiple documents - at least one per documentation type (tutorial, troubleshooting, announcement, etc.)
+   1. [FastStore: Performance improvements for mobile devices (Announcement - Dev Portal)](https://developers.vtex.com/updates/release-notes/2024-12-23-faststore-improvements)
+   2. [Authentication (Conceptual - Help Center)](https://help.vtex.com/en/tutorial/authentication--21CkKHLKP1o41lUpGhuRUs)
+   3. [Backend integrations (Conceptual - Help Center)](https://help.vtex.com/en/tracks/vtex-store-overview--eSDNk26pdvemF3XKM0nK9/7euXDZR5CCnVFSrXyczIhu)
+   4. [Set up catalog (Tutorial - Dev Portal)](https://developers.vtex.com/docs/guides/erp-integration-set-up-catalog)
+   5. [How to add products (Practical guide - Help Center)](https://help.vtex.com/en/tutorial/adding-products--tutorials_2567)
+   6. [I am getting errors with my service configuration app (Troubleshooting - Dev Portal)](https://developers.vtex.com/docs/troubleshooting/i-am-getting-errors-with-my-service-configuration-app)
    7. [Subscriptions: FAQ (FAQ - Help Center)](https://help.vtex.com/en/faq/subscriptions-faq--3g0blKxyWjsmPMTFvr8sLq)
-   8. [How to add products (Practical guide - Help Center)](https://help.vtex.com/en/tutorial/adding-products--tutorials_2567)
+   8. [Engineering best practices (Tutorial - Dev Portal)](https://developers.vtex.com/docs/guides/vtex-io-documentation-engineering-guidelines)
 
 #### Document format
 
