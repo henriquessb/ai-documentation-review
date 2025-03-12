@@ -46,7 +46,7 @@ There are two ways to execute the automated reviews: **Agent** and **Chat**. Wit
 
 1. Open the AI sidebar of the desired IDE (Cursor, VS Code).
 2. Choose the **Agent** option in the chat and the desired AI model (e.g., GPT-4o).
-3. Add the prompt in the textbox: "Execute the comparison following the instructions in {Reference to Prompts/Agent/Compare prompt.md}", without quotes. Replace the reference to the `Compare prompt.md` file according to the IDE. Cursor uses `@` (@Compare prompt.md) to reference files. VS Code/GitHub Copilot uses `#`.
+3. Add the prompt in the textbox: "Execute the comparison following the instructions in {Reference to Prompts/Agent/Compare prompt.md}", without quotes. Replace the reference to the `Compare prompt.md` file according to the IDE. Cursor uses `@` (@Compare prompt.md) to reference files. VS Code/GitHub Copilot uses `#` (#Compare prompt.md).
 4. The AI model will execute the review and generate the files in the folder `Reviews/Single prompt - multiple documents/{Model name}`. E.g., if the model executing the reviews is GPT-4o, the files will be in the folder `Reviews/Single prompt - multiple documents/GPT-4o`.
 
 #### Chat review
@@ -63,12 +63,12 @@ There are two ways to execute the automated reviews: **Agent** and **Chat**. Wit
    5. Paste the review response in the file you just created.
 6. After the reviews of all documentation files are done, you will execute the aggregated report. Insert the content of `Prompts/Chat/Aggregated report.md` in the text box and run.
 7. Copy the aggregated report response from chat.
-8. Create a new file inside the folder you created for the aggregated report of this model (`Reviews/Single prompt - multiple documents/{Model name}/{Model name}-aggregated-report.md`). E.g., `Reviews/Single prompt - multiple documents/DeepSeek-R1/DeepSeek-R1--aggregated-report.md`.
+8. Create a new file inside the folder you created for the aggregated report of this model (`Reviews/Single prompt - multiple documents/{Model name}/{Model name}-aggregated-report.md`). E.g., `Reviews/Single prompt - multiple documents/DeepSeek-R1/DeepSeek-R1-aggregated-report.md`.
 9. Paste the aggregated report response in the file you just created.
 
 > ℹ️ For reviews with Gemini on Google AI Studio, you need to attach the files from Google Drive. The recommendation is to create a dedicated folder with the files, preferably in the **Google AI Studio** folder, and insert there all the files you will need to attach in the chat. Then, in the chat, you select the files from Google Drive.
 
-### Compare execution
+### Comparison execution
 
 Currently, comparison works only with **Agent** mode. You insert the prompt to execute along with the prompt file reference, and the files will be generated, since the input files are accessed directly from this repository.
 
@@ -76,5 +76,5 @@ Currently, comparison works only with **Agent** mode. You insert the prompt to e
 
 1. Open the AI sidebar of the desired IDE (Cursor, VS Code).
 2. Choose the **Agent** option in the chat and the desired AI model (e.g., GPT-4o).
-3. Add the prompt in the textbox: "Execute the comparison following the instructions in {Reference to Prompts/Agent/Compare prompt.md}", without quotes. Replace the reference to the `Compare prompt.md` file according to the IDE. Cursor uses `@` (@Compare prompt.md) to reference files. VS Code/GitHub copilot uses `#`.
+3. Add the prompt in the textbox: "Execute the comparison following the instructions in {Reference to Prompts/Agent/Compare prompt.md}", without quotes. Replace the reference to the `Compare prompt.md` file according to the IDE. Cursor uses `@` (@Compare prompt.md) to reference files. VS Code/GitHub Copilot uses `#` (#Compare prompt.md).
 4. The AI model will execute the comparison and generate the files in the folder `Comparison/{Model name}`. E.g., if the model executing the comparison is GPT-4o, the files will be in the folder `Comparison/GPT-4o`.
